@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Phone 
+{
+
+public:
+string phoneName ;
+string phoneSize ;
+
+public:
+
+Phone(string name, string size) 
+{
+  phoneName =name ;
+  phoneSize =size ;
+}
+
+void makeCall()
+{
+  cout<<"calling on "<<phoneName<<endl;
+}
+void recieveCall()
+{
+  cout<<"recieving call on "<<phoneName<<endl;
+}
+
+};
+
+int main()
+{
+Phone moto("motorola_x","64 GB");
+cout<< moto.phoneName << endl;
+cout<<moto.phoneSize << endl;
+moto.makeCall();
+moto.recieveCall();
+}
