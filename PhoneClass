@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-
+// creating a simple class
 class Phone 
 {
 
